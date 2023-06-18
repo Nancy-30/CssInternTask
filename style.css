@@ -52,16 +52,12 @@
 .smile{
     height:40px;
     width: 40px;
-    /* border-width: ;
-    border-radius: 10px;
-    border-color: rgb(245, 16, 16); */
     border: 2px solid black;
     border-left: none;
     border-top: none;
     border-bottom: none;
-    border-radius: 100px 100px;
+    border-radius: 50%;
     transform: translateX(-10px);
-    /* background: black; */
 }
 
 .bottom{
@@ -76,8 +72,10 @@
     height:0px;
     width:0px;
     /* background: rgb(231, 231, 42); */
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-top: 100px solid rgb(231, 231, 42);
-    transform: translateX(590px);
+    border-left: 180px solid transparent;
+    border-right: 180px solid transparent;
+    border-top: 60px solid rgb(231, 231, 42);
+    position: absolute;
+    bottom:100 px;
+    left:500px;
 }
